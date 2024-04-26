@@ -10,7 +10,7 @@ This is the official repository of our paper:
 [Nikita Araslanov](https://arnike.github.io),
 [Simone Schaub-Meyer](https://schaubsi.github.io),
 and [Stefan Roth](https://www.visinf.tu-darmstadt.de/visual_inference/people_vi/stefan_roth.en.jsp)<br>
-[[arXiv](https://arxiv.org/)]
+[[arXiv](https://arxiv.org/abs/2404.16818)]
 
 **Abstract:** Unsupervised semantic segmentation aims to automatically partition images into semantically meaningful regions by identifying global categories within an image corpus without any form of annotation. Building upon recent advances in self-supervised representation learning, we focus on how to leverage these large pre-trained models for the downstream task of unsupervised segmentation. We present <i>PriMaPs</i> - Principal Mask Proposals - decomposing images into semantically meaningful masks based on their feature representation. This allows us to realize unsupervised semantic segmentation by fitting class prototypes to <i>PriMaPs</i> with a stochastic expectation-maximization algorithm, <i>PriMaPs-EM</i>. Despite its conceptual simplicity, <i>PriMaPs-EM</i> leads to competitive results across various pre-trained backbone models, including DINO and DINOv2, and across datasets, such as Cityscapes, COCO-Stuff, and Potsdam-3. Importantly, <i>PriMaPs-EM</i> is able to boost results when applied orthogonally to current state-of-the-art unsupervised semantic segmentation pipelines. 
 
