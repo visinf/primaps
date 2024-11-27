@@ -1,0 +1,9 @@
+cityscapesScripts==2.2.1
+matplotlib==3.3.4
+numpy==1.19.5
+pytorch-lightning==1.5.10
+scipy==1.5.4
+tqdm==4.59.0
+wget
+hydra-core
+seaborn
